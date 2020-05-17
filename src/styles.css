@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:focus {
+    outline: 0 !important;
+}

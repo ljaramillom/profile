@@ -11,6 +11,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { OwlModule } from 'ngx-owl-carousel';
+import { OwlCarouselComponent } from './pages/carousel/owl-carousel/owl-carousel.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { HomeComponent } from './pages/home/home.component';
     PortfolioComponent,
     SkillsComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    OwlCarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

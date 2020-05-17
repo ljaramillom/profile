@@ -1,0 +1,11 @@
+<div class="i-love-to-do py-3">
+    <div class="container">
+        <h2 class="h3 text-center font-weight-bold">I love to do</h2>
+        <owl-carousel [options]="SlideOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding']">
+            <div class="item" *ngFor="let img of Images">
+                <div style="align-content: center">
+                    <img style="height: 250px;width:100%" src={{img}}/>
+                </div>
+            </div>
+        </owl-carousel>
+    </div>
