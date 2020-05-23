@@ -14,12 +14,13 @@ export class OwlCarouselComponent implements OnInit {
             'assets/images/carousel/cook.jpg',
             'assets/images/carousel/travel.jpg',
             'assets/images/carousel/cinema.jpg',
+            'assets/images/carousel/theater.jpg',
             'assets/images/carousel/pionerasDev.png'];
 
 
   SlideOptions = {
     items: 2,
-    dots: true,
+    dots: false,
     nav: true,
     loop: true,
     margin: 0,
@@ -45,7 +46,7 @@ export class OwlCarouselComponent implements OnInit {
   };
   CarouselOptions = {
     items: 6,
-    dots: true,
+    dots: false,
     nav: true,
     loop: true,
 };
