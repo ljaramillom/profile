@@ -11,11 +11,11 @@ export class OwlCarouselComponent implements OnInit {
   Images = ['assets/images/carousel/coding.jpg',
             'assets/images/carousel/photo.jpg',
             'assets/images/carousel/read.jpg',
+            'assets/images/carousel/travel-team.jpg',
+            'assets/images/carousel/walk.jpg',
             'assets/images/carousel/cook.jpg',
-            'assets/images/carousel/travel.jpg',
             'assets/images/carousel/cinema.jpg',
-            'assets/images/carousel/theater.jpg',
-            'assets/images/carousel/pionerasDev.png'];
+            'assets/images/carousel/theater.jpg'];
 
 
   SlideOptions = {
